@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Zile senhas</title>
+        <link rel="stylesheet" href="./styles/style.css" />
+        <script src="./script/script.js" defer></script>
+    </head>
+    <body>
+        
+        <audio preload="auto" autoplay>
+
+        <source src="./musics/X2Download.com - Cyberpunk 2077 music (128 kbps).mp3" type="audio/mpeg">
+
+        </audio>
+
+        <div class="pw-container">
+            <div class="pw-header">
+                <div class="pw">
+                    <span id="pw">$3nhaz1ka1234</span>
+                    <button id="copy">Copiar</button>
+                </div>
+            </div>
+            <div class="pw-body">
+                <div class="form-control">
+                    <label for="len">Comprimento da senha</label>
+                    <input id="len" value="15" type="number" min="2" max="30" />
+                </div>
+                <div class="form-control">
+                    <label for="upper">Letras maiusculas</label>
+                    <input id="upper" type="checkbox" />
+                </div>
+                <div class="form-control">
+                    <label for="lower">Letras minusculas</label>
+                    <input id="lower" type="checkbox" />
+                </div>
+                <div class="form-control">
+                    <label for="number">Numeros</label>
+                    <input id="number" type="checkbox" />
+                </div>
+                <div class="form-control">
+                    <label for="symbol">Simbolos</label>
+                    <input id="symbol" type="checkbox" />
+                </div>
+                <button class="generate" id="generate">
+                    Gerar senhas
+                </button>
+            </div>
+        </div>
+    </body>
+</html>
